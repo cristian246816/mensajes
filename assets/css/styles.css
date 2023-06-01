@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section_pantalla {
+    display: flex;
+}
+
+/* Seccion Contactos */
+
+.contactos {
+    width: 30%;
+    background-color: #fff;
+    border-right: solid 1px #BEC1BB;
+}
+
+.contacto_perfil {
+    height: 50px;
+    border-bottom: solid 2px #E8EBE4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto_maria {
+    display: flex;
+    padding-left: 50px;
+}
+
+.foto1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 2px #E8EBE4;
+}
+
+.texto_foto1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+}
+
+.nombre_foto {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1f21;
+}
+
+.parrafo_foto1 {
+    color: gray;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+i {
+    color: #828485;
+    padding-right: 20px;
+}
+
+.menu {
+    padding-left: 150px;
+}
+
+/* Seccion boton */
+
+.boton_nuevo_chat {
+    height: 110px;
+    border-bottom: solid 2px #E8EBE4;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    height: 60px;
+    width: 250px;
+    background-color: #A491D2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Seccion contactos */
+
+.contacto2 {
+    height: 74px;
+    border-bottom: solid 2px #E8EBE4;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.foto2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px #E8EBE4;
+}
+
+.texto_foto2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+
+.parrafo_foto2 {
+    color: #1b1f21;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.contacto3 {
+    height: 72px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 60px;
+}
+
+/* Seccion principal */
+
+.principal {
+    width: 70%;
+    background-color: #E8EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hand {
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+}
+
+.titulo_principal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #1b1f21;
+}
+
+.parrafo_principal {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
